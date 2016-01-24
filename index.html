@@ -71,6 +71,7 @@
             <div class="col-sm-7 hero-text">
               <h1>Temperance in Chaos</h1>
               <h2>Meditations on life, love, and dealing with adversity</h2>
+              <p class="lead">We really need a lead paragraph here. It would help to have a short description before calling the user to action to view articles.</p>
               <p><a class="btn btn-lg btn-danger" href="#">View our latest posts &raquo;</a></p>
             </div><!-- .col -->
           </div><!-- .row -->
@@ -81,20 +82,69 @@
 
     <!-- Opt-in -->
     <section id="opt-in">
-      
+      <div class="container">
+        <div class="row">
+          
+        <div class="col-sm-8">
+          <p class="lead"><strong>Subscribe to our mailing list.</strong> We'll send something special as a thank you.</p>
+        </div><!-- col -->
+
+        <div class="col-sm-4">
+          <button class="btn btn-lg btn-block btn-success" data-toggle="modal" data-target="#opt-inModal">
+            Click here to subscribe
+          </button>
+        </div><!-- col -->
+
+        </div><!-- row -->
+      </div><!-- container -->
     </section><!-- #opt-in -->
 
 
-
-    <!-- Sign up Form -->
-    <section id="sign-up">
-      
-    </section><!-- #sign-up -->
 
     <!-- Footer -->
     <footer>
       
     </footer><!-- footer -->
+
+    <!-- opt-in Modal -->
+  <div class="modal fade" id="opt-inModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="opt-inModalLabel">
+            <i class="fa fa-envelope"></i> Subscribe to our Mailing List
+          </h4>
+        </div><!-- modal-header -->
+
+        <div class="modal-body">
+          <p>Simply enter your name and email! As a thank you for joining us, we're going to give you one of our best articles in a PDF format, <em>for free!</em></p>
+          <form class="form-inline" role="form">
+            <div class="form-group">
+              <label class="sr-only" for="subscribe-name">Your first name</label>
+              <input type="text" class="form-control" id="subscribe-name" placeholder="Your first name">
+            </div><!-- form-group -->
+            <div class="form-group">
+              <label class="sr-only" for="subscribe-email">and your email</label>
+              <input type="text" class="form-control" id="subscribe-email" placeholder="and your email">
+            </div><!-- form-group -->
+
+            <input type="submit" class="btn btn-danger" value="Subscribe!">
+
+            <hr>
+
+            <p><small>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. <br>
+            We respect your privacy and you may unsubscribe at any time.</small></p>
+          </form>
+        </div><!-- modal-body -->
+
+      </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+  </div><!-- opt-in Modal -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
