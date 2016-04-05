@@ -95,11 +95,31 @@ button, input, .btn, a.btn {
 /* Header */
 
 #top-banner {
-	background: #56417f url('../img/top-bg.jpg') center center no-repeat;
+	background: #56417f url('../img/top-bg.jpg') no-repeat;
+	background-size: cover;
 	min-height: 175px;
 	padding-top: 68px;
 }
 
 nav.navbar {
 	margin-bottom: 0;
+}
+
+/* Layout */
+
+#opt-in {
+	background: #56417f;
+	padding: 20px 0 35px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 1.2em;
+}
+
+#opt-in p {
+	margin: 7px 0 20px 0;
+}
+
+#opt-in input[type="text"], #opt-in input[type="email"] {
+	width: 275px;
 }
