@@ -32,17 +32,12 @@ h1, h2 {
 	margin: 0 0 40px;
 }
 
-h2 {
-	font-size: 2.25em;
-}
-
 h3 {
-	font-size: 1.75em;
 	margin: 20px 0;
 }
 
 h4 {
-	font-size: 1.5em;
+	font-size: 18px;
 }
 
 p {
@@ -92,6 +87,10 @@ button, input, .btn, a.btn {
 	border-color: #17cc34;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* Header */
 
 #top-banner {
@@ -117,9 +116,62 @@ nav.navbar {
 }
 
 #opt-in p {
-	margin: 7px 0 20px 0;
+	margin: 7px 0 0 0;
 }
 
 #opt-in input[type="text"], #opt-in input[type="email"] {
 	width: 275px;
+}
+
+/* Layout */
+
+.row + .row {
+	margin-top: 20px;
+}
+
+section {
+	padding: 40px 0;
+}
+
+section.main-content {
+	padding: 40px 0;
+}
+
+.section-header {
+	text-align: center;
+}
+
+section h2 {
+	margin: 20px 0 40px;
+}
+
+section h3 {
+	margin: 30px 0 10px;
+}
+
+footer {
+	background: #56417f;
+	color: white;
+	padding: 10px 0 10px;
+	font-size: 12px;
+}
+
+footer p {
+	margin: 5px 0 0;
+}
+
+footer p.copyright-text {
+	padding: 7px 0 0;
+}
+
+footer nav {
+	padding: 13px 0 0;
+}
+
+footer a:link, footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: #e87d3d;
 }
