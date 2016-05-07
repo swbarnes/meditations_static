@@ -203,3 +203,17 @@ footer a:hover {
 	}
 
 }
+
+@media screen and ( max-width : 768px ) {
+
+	#opt-in input[type="text"], #opt-in input[type="email"] {
+		width: 425px;
+		margin: 0;
+	}
+
+	#opt-in input[type="submit"] {
+		display: inline-block;
+		margin: 0;
+	}
+
+}
