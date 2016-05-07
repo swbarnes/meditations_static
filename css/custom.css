@@ -181,8 +181,25 @@ footer a:hover {
 
 @media screen and ( max-width : 1200px ) {
 
+	#opt-in input[type="text"], #opt-in input[type="email"] {
+		width: 300px;
+	}
+
 	#opt-in input[type="submit"] {
 		margin: 7px 0 0;
+	}
+
+}
+
+@media screen and ( max-width : 991px ) {
+
+	#opt-in input[type="text"], #opt-in input[type="email"] {
+		width: 425px;
+		margin: 7px 0 0;
+	}
+
+	#opt-in input[type="submit"] {
+		display: block;
 	}
 
 }
