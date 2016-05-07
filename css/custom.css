@@ -175,3 +175,14 @@ footer a:link, footer a:visited {
 footer a:hover {
 	color: #e87d3d;
 }
+
+
+/* Media Queries */
+
+@media screen and ( max-width : 1200px ) {
+
+	#opt-in input[type="submit"] {
+		margin: 7px 0 0;
+	}
+
+}
