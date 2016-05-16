@@ -129,6 +129,10 @@ nav.navbar {
 	margin-top: 20px;
 }
 
+form .row + .row {
+	margin-top: 0;
+}
+
 section {
 	padding: 40px 0;
 }
@@ -139,6 +143,7 @@ section.main-content {
 
 .section-header {
 	text-align: center;
+	padding-bottom: 0px;
 }
 
 section h2 {
