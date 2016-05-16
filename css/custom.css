@@ -50,11 +50,13 @@ p.lead {
 
 a:link, a:visited {
 	color: #7a36ff;
+	font-style: bold;
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #4914b2;
+	font-style: bold;
 }
 
 button, input, .btn, a.btn {
