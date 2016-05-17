@@ -125,6 +125,15 @@ nav.navbar {
 	width: 275px;
 }
 
+#happier-now {
+	background: #56417f;
+	padding: 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 1.2em;
+}
+
 /* Layout */
 
 .row + .row {
