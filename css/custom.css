@@ -99,7 +99,7 @@ img {
 	background: #56417f url('../img/top-bg.jpg') no-repeat;
 	background-size: cover;
 	min-height: 175px;
-	padding-top: 68px;
+	padding-top: 50px;
 }
 
 nav.navbar {
@@ -190,11 +190,11 @@ footer p {
 }
 
 footer p.copyright-text {
-	padding: 7px 0 0;
+	padding: 10px 0 0;
 }
 
 footer nav {
-	padding: 13px 0 0;
+	padding: 16px 0 0;
 }
 
 footer a:link, footer a:visited {
