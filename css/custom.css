@@ -183,19 +183,6 @@ section h3 {
 	padding-bottom: 40px;
 }
 
-.page-heading {
-	background-color: #56417f;
-	display: table;
-	width: 100%;
-}
-
-.page-heading h1 {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	color: white;
-}
-
 footer {
 	background: #56417f;
 	color: white;
