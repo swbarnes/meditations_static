@@ -50,13 +50,17 @@ p.lead {
 
 a:link, a:visited {
 	color: #7a36ff;
-	font-style: bold;
+	font-weight: bold;
 }
 
 a:hover {
 	text-decoration: underline;
 	color: #4914b2;
-	font-style: bold;
+	font-weight: bold;
+}
+
+#dh-menu a:link, #dh-menu a:visited, #dh-menu a:hover {
+	font-weight: normal;
 }
 
 blockquote {
@@ -208,10 +212,21 @@ footer nav {
 
 footer a:link, footer a:visited {
 	color: white;
+	font-weight: normal;
 }
 
 footer a:hover {
+	text-decoration: none;
 	color: #e87d3d;
+}
+
+footer li.subscribe-link a:link, footer li.subscribe-link a:visited {
+	font-weight: bold;
+	color: #e87d3d;
+}
+
+footer li.subscribe-link a:hover {
+	color: white;
 }
 
 /* Blog */
