@@ -59,8 +59,21 @@ a:hover {
 	font-weight: bold;
 }
 
+.navbar {
+	border-bottom: 0;
+}
+
 #dh-menu a:link, #dh-menu a:visited, #dh-menu a:hover {
 	font-weight: normal;
+}
+
+#dh-menu li.subscribe-btn a:link, #dh-menu li.subscribe-btn a:visited {
+	background-color: #ce6f36;
+	color: white;
+}
+
+#dh-menu li.subscribe-btn a:hover {
+	background-color: #e87d3d;
 }
 
 blockquote {
