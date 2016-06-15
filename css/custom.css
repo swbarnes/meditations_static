@@ -384,11 +384,7 @@ textarea {
 @media screen and ( max-width : 1199px ) {
 
 	#opt-in input[type="text"], #opt-in input[type="email"] {
-		width: 300px;
-	}
-
-	#opt-in input[type="submit"] {
-		margin: 7px 0 0;
+		width: 250px;
 	}
 
 	#happier-now .report-ad {
@@ -409,7 +405,9 @@ textarea {
 	}
 
 	#opt-in input[type="submit"] {
+		margin: 7px 0 0;
 		display: block;
+		width: 425px;
 	}
 
 	#happier-now p.lead {
@@ -428,17 +426,27 @@ textarea {
 
 	#opt-in input[type="text"], #opt-in input[type="email"] {
 		width: 425px;
-		margin: 0;
 	}
 
 	#opt-in input[type="submit"] {
-		display: inline-block;
-		margin: 0;
+		display: block;
 	}
 
 }
 
 @media screen and ( max-width : 767px ) {
+
+	#opt-in div.form-group {
+		margin-bottom: 10px;
+	}
+
+	#opt-in input[type="text"], #opt-in input[type="email"] {
+		width: 100%;
+	}
+
+	#opt-in input[type="submit"] {
+		width: 100%;
+	}
 
 	#happier-now .report-cover {
 		text-align: center;
